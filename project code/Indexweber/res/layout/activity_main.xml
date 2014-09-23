@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/guide_asian">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="80dp"
+          android:background="#99000000">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:text="I&apos;m looking for"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Somthing to do"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="in HYDERABAD"
+            android:padding="5dip"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button1shape"
+            android:text="Tonight"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/button2"
+            android:layout_toRightOf="@+id/button2"
+            android:background="@drawable/button3shape"
+            android:text="Weekend"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="85dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/button1"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_marginLeft="64dp"
+            android:background="@drawable/button2shape"
+            android:text="Tomorrow"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignRight="@+id/editText1"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="16dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button4shape"
+            android:text="Invite yourself and yourfriends" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
